@@ -1,0 +1,52 @@
+name: pam_p8_ifs23025
+description: Delcom Todos Flutter App - PAM Praktikum 8
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP Client
+  http: ^1.4.0
+
+  # State Management
+  provider: ^6.1.5
+
+  # Navigation
+  go_router: ^17.1.0
+
+  # Image Picker (cross-platform: Android, iOS, Web)
+  image_picker: ^1.1.2
+
+  # Local Storage (token persistence)
+  shared_preferences: ^2.3.2
+
+  # Image rendering
+  cached_network_image: ^3.4.1
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  launcher_name: ^1.0.2
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/img_logo.png"
+
+launcher_name:
+  default: "Delcom Todos Flutter"
+  id: "Delcom Todos Flutter"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
